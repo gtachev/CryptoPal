@@ -467,7 +467,7 @@ app.controller('myCtrl', function ($scope, $http) {
 		$scope.get(apiUrl).then(function (response) {
 			var data = response.data
 			if (provider === 'cryptocompare') {
-				data = prepareCryptocompareData(data);
+				data = $scope.prepareCryptocompareData(data);
 			}
                         $scope.allCurrenciesObj = {};
 			for(var i = 0; i < data.length; i++) {
