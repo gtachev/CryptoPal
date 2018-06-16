@@ -1,2 +1,2 @@
 # CryptoPal
-Crypto tool
+Cryptocurrency tool
